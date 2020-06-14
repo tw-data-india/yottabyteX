@@ -21,7 +21,7 @@ To start developing,
 For ease, there is a Guardfile. You can run `bundle exec guard`, it will keep watching for changes and re-compile the 
 site whenever any file is changed.
 
-#Deployment
+# Deployment
 
 * Commit changes to master dir (including /docs dir) and push
 Note: In settings -> Github Pages -> Source, select "master branch /docs folder"
