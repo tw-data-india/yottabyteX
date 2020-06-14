@@ -22,7 +22,11 @@
         <div class="row countdown">
             <div class="small-8 small-offset-2 large-8 large-offset-2 columns date">
                 <p><%= @item[:edition] %><sup><%= @item[:edition].ordinal %></sup> edition</p>
-                <h4><%= start_date.strftime("%b %-d %Y") %></h4>
+                 <% if @item[:end] %>
+                    <h4><%= start_date.strftime("%b %-d %Y") %> - <%= Time.parse(@item[:end]).strftime("%b %-d %Y")%></h4>
+                 <% else %>
+                    <h4><%= start_date.strftime("%b %-d %Y") %></h4>
+                 <% end %>
             </div>
         </div>
     </section>
