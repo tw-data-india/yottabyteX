@@ -1,10 +1,12 @@
-# Geek Night Gurgaon
+# YottabyteX India
 
-an open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
+an open forum for data practitioners & enthusiasts to connect, discuss &amp; learn latest ideas, technologies and trends 
+in data science and engineering.
 
 # Development
 
-Using [nanoc](//nanoc.ws) for static site generation. Jekyll/Octopress are hard-coded for blogging, while Nanoc is much simpler, doesn't take any assumptions and allows to build whatever type of content (not just blogs).
+Using [nanoc](//nanoc.ws) for static site generation. Jekyll/Octopress are hard-coded for blogging, while Nanoc is much 
+simpler, doesn't take any assumptions and allows to build whatever type of content (not just blogs).
 
 To start developing,
 
@@ -16,7 +18,8 @@ To start developing,
 * Run `nanoc` to compile the website
 * Run `nanoc view` to start a server and browse to `localhost:3000`
 
-For ease, there is a Guardfile. You can run `bundle exec guard`, it will keep watching for changes and re-compile the site whenever any file is changed.
+For ease, there is a Guardfile. You can run `bundle exec guard`, it will keep watching for changes and re-compile the 
+site whenever any file is changed.
 
 # Folders of interest
 
@@ -34,4 +37,5 @@ For ease, there is a Guardfile. You can run `bundle exec guard`, it will keep wa
 * Used [HTML5 Boilerplate](//html5boilerplate.com) to generate the skeleton.
 * Used [colourlovers.com](//colourlovers.com) for the color swatches.
 * Using [SASS](//sass-lang.com) and [Foundation](//foundation.zurb.com) for all the Styling.
-* Icon fonts were generated and downloaded from [Fontello](//fontello.com). Only icons from the *Modern Pictogram* set were used for consistency.
+* Icon fonts were generated and downloaded from [Fontello](//fontello.com). Only icons from the *Modern Pictogram* set 
+were used for consistency.
