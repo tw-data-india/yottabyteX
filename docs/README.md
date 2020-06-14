@@ -24,6 +24,7 @@ site whenever any file is changed.
 # Deployment
 
 * Commit changes to master dir (including /docs dir) and push
+
 Note: In settings -> Github Pages -> Source, select "master branch /docs folder"
 
 # Folders of interest
