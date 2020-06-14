@@ -27,13 +27,13 @@
                                 <p><img src="img/speaker/<%= sessions[:image] %>" alt="<%= sessions[:speaker] %>" /></p>
                             <% end %>
                             <% if sessions[:speaker] %>
-                                <p><small>By:
+                                <p style="font-size:16px"><i>By:
                                 <% if sessions[:profile] %>
                                     <a href="<%= sessions[:profile] %>" rel="nofollow" target="_blank"><%= sessions[:speaker] %></a>
                                 <% else %>
                                     <%= sessions[:speaker] %>
                                 <% end %>
-                                </small></p>
+                                </i></p>
                             <% end %>
                             <% if sessions[:resources] %>
                                 <p><small>Resources:
