@@ -21,13 +21,18 @@ To start developing,
 For ease, there is a Guardfile. You can run `bundle exec guard`, it will keep watching for changes and re-compile the 
 site whenever any file is changed.
 
+#Deployment
+
+* Commit changes to master dir (including /docs dir) and push
+Note: In settings -> Github Pages -> Source, select "master branch /docs folder"
+
 # Folders of interest
 
 * `content` - this is the main source code, rest are all generated source code that can be ignored
 * `content/assets` - contains all assets
 * `content/assets/app.sass` - contains the main stylesheet
 * `content/assets/img/speakers` - contains speaker images
-* `content/index.html` - content for current geek night
+* `content/index.html` - content for current yottabyteX
 * `layouts` - layouts for default and archive versions
 * `Rules` - routing rules
 
@@ -39,3 +44,7 @@ site whenever any file is changed.
 * Using [SASS](//sass-lang.com) and [Foundation](//foundation.zurb.com) for all the Styling.
 * Icon fonts were generated and downloaded from [Fontello](//fontello.com). Only icons from the *Modern Pictogram* set 
 were used for consistency.
+
+# References
+
+* https://sourceforge.net/p/nanoc/wiki/markdown_syntax/
